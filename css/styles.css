@@ -18,11 +18,12 @@ $color5: rgba(170, 62, 152, 1);
 
 body{
     background-color: rgba(117, 221, 221, 1);
-    background-image: url(../img.jpg);
+    background-image: url(../images/background-img.jpg);
 }
 
 p{
     text-align: center;
+    background-color: rgba(240, 255, 255, 0.3);
     color: rgb(0, 0, 0);
 }
 
@@ -33,4 +34,19 @@ h2{
 
 header{
     background-color: rgb(121, 140, 226);
+    border-style: dashed;
+    padding-left: 2%;
+    padding-bottom: 2%;   
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: aquamarine;
 }

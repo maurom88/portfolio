@@ -29,26 +29,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-p{
-    text-align: center;
-    background-color: rgba(146, 151, 196, 0.5);
-    color: rgb(0, 0, 0);
-    font-family: 'Lato', sans-serif;
-}
-
-h1{
-    color: ;
-}
-
-h2{
-    color: ;
-}
 /* Header and Footer */
 
 header{
     background-color: rgb(121, 140, 226);
-    padding-left: 2%;
-    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-bottom: 5%;
 }
 
 nav{
@@ -64,3 +50,20 @@ nav a{
 nav a:hover{
     background-color: aquamarine;
 }
+
+/* paragraphs and headings */
+
+h1{
+    color: ;
+}
+
+h2{
+    color: ;
+}
+
+p{
+    text-align: center;
+    background-color: rgba(146, 151, 196, 0.5);
+    font-family: 'Lato', sans-serif;
+}
+

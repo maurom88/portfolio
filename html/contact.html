@@ -1,30 +1,61 @@
+<!--
+    TODO
+
+    1. insert logo
+-->
+
 <!DOCTYPE html>
 <html>
 
 <head>
+    <!-- Link to CSS-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- Link to JS-->
+
+    <!--Fonts from Google-->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap" rel="stylesheet">
+    <!-- Change title on every page-->
     <title>Mauro Meden|###</title>
 </head>
 
 <body>
+
+    <!-- Header to be copied in all pages-->
     <header>
         <h1>Mauro Meden</h1>
+        <!-- Navigation bar-->
         <nav>
-                <a href="index.html">Home</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="resume.html">Resume</a>
-                <a href="contact.html">Contact me</a>
+            <a href="index.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html">Contact me</a>
         </nav>
     </header>
 
     <main>
-        <h2>Contact me</h2>
-        <form action="">
+        <h2>Get in touch</h2>
 
+        <p>Send me a message using the form below, and I'll get back to you as soon as possible.</p>
+
+        <form action="" target="_self" method="POST">
+            <label for="name">Name: </label>
+            <input type="text" name="name" placeholder="John Smith" required><br>
+            <label for="phone">Phone #: </label>
+            <input type="tel" name="phone" placeholder="xxx-xxx-xxxx"><br>
+            <label for="email">Email address: </label>
+            <input type="email" name="email" placeholder="name@example.com" required><br>
+            <label for="subject">Subject: </label>
+            <input type="text" name="subject" required><br>
+            <label for="message">Your message: </label>
+            <textarea rows="10" cols="30" name="message" required></textarea><br>
+            <input type="submit" value="Send message">
+            <input type="reset" value="Reset">
         </form>
     </main>
 
+    <!-- Footer to be copied in all pages-->
     <footer>
-
+        <!-- Social media contacts-->
     </footer>
 
 </body>

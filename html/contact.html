@@ -15,7 +15,7 @@
     <!--Fonts from Google-->
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap" rel="stylesheet">
     <!-- Change title on every page-->
-    <title>Mauro Meden|###</title>
+    <title>Mauro Meden|Contact</title>
 </head>
 
 <body>
@@ -38,18 +38,54 @@
         <p>Send me a message using the form below, and I'll get back to you as soon as possible.</p>
 
         <form action="" target="_self" method="POST">
-            <label for="name">Name: </label>
-            <input type="text" name="name" placeholder="John Smith" required><br>
-            <label for="phone">Phone #: </label>
-            <input type="tel" name="phone" placeholder="xxx-xxx-xxxx"><br>
-            <label for="email">Email address: </label>
-            <input type="email" name="email" placeholder="name@example.com" required><br>
-            <label for="subject">Subject: </label>
-            <input type="text" name="subject" required><br>
-            <label for="message">Your message: </label>
-            <textarea rows="10" cols="30" name="message" required></textarea><br>
-            <input type="submit" value="Send message">
-            <input type="reset" value="Reset">
+            <div class="form-container">
+                <div class="row">
+                    <div class="col-narrow">
+                        <label for="name">Name: </label>
+                    </div>
+                    <div class="col-wide">
+                        <input type="text" name="name" placeholder="John Smith" required><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-narrow">
+                        <label for="phone">Phone #: </label>
+                    </div>
+                    <div class="col-wide">
+                        <input type="tel" name="phone" placeholder="xxx-xxx-xxxx"><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-narrow">
+                        <label for="email">Email address: </label>
+                    </div>
+                    <div class="col-wide">
+                        <input type="email" name="email" placeholder="name@example.com" required><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-narrow">
+                        <label for="subject">Subject: </label>
+                    </div>
+                    <div class="col-wide">
+                        <input type="text" name="subject" required><br>
+                    </div>
+                </div>
+                    <div class="col-narrow">
+                        <label for="message">Your message: </label>
+                    </div>
+                    <div class="col-wide">
+                        <textarea rows="10" cols="30" name="message" required></textarea><br>
+                    </div>
+                <div class="row">
+                    <div class="col-narrow">                    
+                        <input type="submit" value="Send message">
+                    </div>
+                    <div class="col-narrow">
+                        <input type="reset" value="Reset">
+                    </div>
+                </div>
+            </div>
         </form>
     </main>
 

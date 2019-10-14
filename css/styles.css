@@ -142,7 +142,7 @@ input, textarea, .form-button {
 
 .portfolio img {
     padding: 20px 10px 20px 10px;
-    height: 300px;
+    width: 300px;
 }
 
 .portfolio p {

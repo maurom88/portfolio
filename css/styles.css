@@ -3,7 +3,6 @@
     TODO:
 
     1. header background should cover the top, left and right
-    2. position logo/photo
 
 /* Coolors Exported Palette - coolors.co/131515-4d5359-508484-e3b505-339989 */
 
@@ -71,14 +70,6 @@ nav a:hover {
 
 /*** paragraphs, headings and other text ***/
 
-h1 {
-    color: ;
-}
-
-h2 {
-    color: ;
-}
-
 p, input, label, textarea {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
@@ -92,7 +83,7 @@ p {
 /*** homepage content ***/
 
 .home-content {
-    padding: 10px 20% 10px 20%;
+    padding: 100px 20% 10px 20%;
     text-align: center;
 }
 
@@ -156,4 +147,15 @@ input, textarea, .form-button {
 
 .portfolio p {
     padding: 20px 10px 20px 10px;
+}
+
+/*** work experience ***/
+
+.work-experience {
+    padding: 10px 20% 10px 20%;
+    text-align: left;
+}
+
+.job-title {
+    margin-left: -10%;
 }

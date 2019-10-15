@@ -1,9 +1,3 @@
-/*
-
-    TODO:
-
-    1. header background should cover the top, left and right
-
 /* Coolors Exported Palette - coolors.co/131515-4d5359-508484-e3b505-339989 */
 
 /* HSL
@@ -42,6 +36,7 @@ main h2 {
 header {
     background-color: rgba(51, 153, 137, 0.8);
     padding: 20px 0px 20px 10px;
+    margin: -20px;
 }
 
 header h1 {

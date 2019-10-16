@@ -29,6 +29,7 @@ body {
 main h2 {
     color: rgba(51, 153, 137, 0.8);
     padding-left: 20px;
+    margin-top: 40px;
 }
 
 /*** Header and Footer ***/

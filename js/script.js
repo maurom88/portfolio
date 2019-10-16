@@ -5,7 +5,7 @@ function form_validation() {
     // check if phone number is a number
     if (isNaN(phoneNumber)) {
         // if it is not a number, display error
-        error = "<span style='color:red'>Please enter a valid phone number!</span>";
+        error = "<span style='color:red'>Please only enter numbers!</span>";
         document.getElementById('phone_err').innerHTML = error;
     } else {
         // if it is a number, proceed without doing anything

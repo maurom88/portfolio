@@ -49,6 +49,7 @@ nav {
     text-align: center;
     position: relative;
     top: 0;
+    float: center;
     font-size: 16px;
 }
 

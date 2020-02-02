@@ -1,0 +1,43 @@
+extends ../default
+
+block content
+		main
+			h2 Get in touch
+			p
+				| Send me a message using the form below, and I'll get back to you as soon as possible.
+			form(action="" target="_self" method="POST")
+				.form-container
+					.row
+						.col-narrow
+							label(for="name") Name: 
+						.col-wide
+							input#name(type="text" name="name" placeholder="John Smith" required="")
+							br
+					.row
+						.col-narrow
+							label(for="phone") Phone # (only numbers): 
+						.col-wide
+							input#phone(type="tel" name="phone" placeholder="xxxxxxxxxx" onkeydown="form_validation();" maxlength="10")
+							br
+							#phone_err
+					.row
+						.col-narrow
+							label(for="email") Email address: 
+						.col-wide
+							input#email(type="email" name="email" placeholder="name@example.com" required="")
+							br
+					.row
+						.col-narrow
+							label(for="subject") Subject: 
+						.col-wide
+							input#subject(type="text" name="subject" required="")
+							br
+					.row
+						.col-narrow
+							label(for="message") Your message: 
+						.col-wide
+							textarea#message(rows="10" cols="30" name="message" required="")
+							br
+					.form-button-group
+						input.form-button(type="submit" value="Send message")
+						input.form-button(type="reset" value="Reset")

@@ -8,4 +8,22 @@ router.get('/', (req, res) => {
     });
 });
 
+router.get('/contact-me', (req, res) => {
+    res.render('pages/contact', {
+        title: 'Mauro Meden - Web Developer'
+    });
+});
+
+router.get('/portfolio', (req, res) => {
+    res.render('pages/portfolio', {
+        title: 'Mauro Meden - Web Developer'
+    });
+});
+
+router.get('/resume', (req, res) => {
+    res.render('pages/resume', {
+        title: 'Mauro Meden - Web Developer'
+    });
+});
+
 module.exports = router;

@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        // Link to CSS
+        link(rel="stylesheet" href="../css/styles.css")
+        // Link to JS
+        // Fonts from Google
+        link(href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap" rel="stylesheet")
+        title #{title}
+    body
+        header
+            include includes/header
+        main
+            block content
+        footer
+            include includes/footer

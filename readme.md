@@ -1,0 +1,1 @@
+Individual project for the [York University's Certificate in Full-Stack Web Development](http://continue.yorku.ca/certificates/certificate-in-full-stack-web-development/) program
